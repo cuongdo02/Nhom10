@@ -1,0 +1,143 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family:Montserrat, sans-serif;
+	font-size: 12px;
+	background-color: rgb(222, 242, 248)
+	
+	/* position: relative; */
+}
+/* .form-student, .list-student{
+	background-color: blue;
+} */
+.header{
+	height: 100px;
+	position: relative;
+	background-color: rgb(218, 238, 255);
+}
+label{
+	font-weight: 450;
+}
+.logo{
+	position: absolute;
+	left: 90px;
+	top: 6px;
+}
+.img-fluid{
+	height: 110px;
+	max-width: 100%;
+}
+div.form-student{
+	width: 450px;
+	border: 1px solid #4970a3;
+	margin: 25px;
+	float: left;
+	/* position: relative; */
+}
+div.list-student{
+	width: 550px;
+	border: 1px solid #4970a3;
+	margin: 25px;
+	/* margin: 25px; */
+	float: left;
+	/* padding: 10px; */
+}
+div.form{
+	padding: 10px;
+}
+
+.top{
+	text-align: center;
+	background-color: #4970a3;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+}
+div.form-student label{
+	width: 100px;
+	float: left;
+}
+
+div.form-student input[type="text"] , button{
+	margin-bottom: 10px;
+	width: 200px;
+	padding: 5px;
+}
+input{
+	background-color: rgb(242, 250, 255);
+}
+
+div.list-student{
+	width: 700px;
+}
+table{
+	border: 1px solid#4970a3 ;
+}
+
+h3{
+	padding: 0px;
+	margin-top:0px ;
+}
+
+td{
+	text-align: center;
+}
+th{
+	background-color: rgb(55, 83, 117);
+	color: #fff;
+}
+.last{
+	text-align: center;
+}
+#save, #reset, #clear, #out{
+	font-weight: bold;	
+}
+#save:hover, #reset:hover, #clear:hover{
+	background-color: rgb(190, 216, 226);
+}
+#out:hover{
+	background-color: rgb(156, 97, 97);
+	color: #fff;
+}
+
+.footer{
+	height: 60px;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #152347;
+    text-align: center;
+    color:#ffffff;
+}
+.logolast{
+	position: absolute;
+	left: 10px;
+	top: 6px;
+}
+#phone-call{
+	font-size: 20px; 
+	font-family: fantasy; 
+	letter-spacing: 2px; 
+	line-height: 40px;
+}
+.sdt{
+	position: absolute;
+	left: 500px;
+	top: 10px;
+	/* height: 50px; */
+}
+.maill{
+	position: absolute;
+	right: 17px;
+	top: 10px;
+	/* left: 635px;
+	top: 16px; */
+}
+#edu{
+	font-family: Lucida, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	/* position: absolute;
+	bottom: 10px; */
+}

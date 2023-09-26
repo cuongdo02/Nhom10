@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quản lí sinh  </title>
+   <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body onload="render()">
+    <input type="hidden" id="index1">
+    <input type="hidden" id="gender1">
+
+    <div class="header">
+        <div class="logo">
+          <a href="" class="utc" title="HỆ THỐNG THÔNG TIN SINH VIÊN"></a>
+            <img src="117.png" alt="" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="form-student">
+        <div class="top">
+            <h3>Thông tin sinh viên</h3>
+        </div>
+        <div class="form">
+          <label> Họ và tên </label>
+          <input type="text" id="fullname"> &nbsp
+          <span id="fullname-error" class="error"></span>
+          <br/>
+  
+           <label> Email</label>
+          <input type="text" id="email"> &nbsp
+          <span id="email-error" class="error"></span>
+          <br/>
+  
+           <label>Số điện thoại </label>
+          <input type="text" id="phone" placeholder="VD:0123456789">&nbsp
+          <span id="phone-error" class="error"></span> 
+          <br/>
+  
+           <label>Địa chỉ </label>
+          <input type="text" id="address"> &nbsp
+          <span id="address-error" class="error"></span>
+          <br/>
+  
+           <label>Điểm TB</label>
+          <input type="text" id="point" placeholder="VD: 1.0 " > &nbsp
+          <span id="point-error" class="error" ></span>
+          <br/>
+  
+           <label> Giới tính </label>
+          <input type="radio" name="gender" id="male" value="Nam">Nam &nbsp&nbsp
+          <input type="radio" name="gender" id="famale" value="Nữ">Nữ       
+           &nbsp
+          <span id="gender-error" class="error"></span>
+          <br/>  
+          <br/>
+
+          <div class="last">
+            <button id="save" onclick="save()">Save &nbsp&nbsp&nbsp&nbsp</button>
+            <button id="edit" style="display: none" onclick="change()">Save Edit &nbsp&nbsp&nbsp&nbsp</button> &nbsp&nbsp&nbsp&nbsp
+            <button id="reset" onclick="reset()">Reset</button>
+            <a href="qlsv.html"><button  onclick="clearall()" id="clear">Clear All Datas</button></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="index.html"><button id="out">Đăng xuất</button></a>   
+          </div>  
+        </div>
+    </div>
+
+
+    <div class="list-student">  
+      <table id="list" width="700px" border="1" cellspacing='0' cellpadding="5">
+        <div class="top">
+          <h3>Danh sách sinh viên</h3>
+        </div>
+      </table>    
+    </div>
+
+    <div class="footer">
+      <div class="logolast">
+          <img src="116.png" class="utcpic" style="width: 320px;"
+          >
+      </div>
+
+      <div class="sdt">
+        <img src="phone-call.png" alt="">
+            <span id="phone-call">(84.24) 38541616</span>
+      </div>
+
+      <div class="maill">
+          <img src="mail.png" alt="">
+          <span id="edu">hau@hau.edu.vn</span>
+      </div>
+    </div>
+
+    <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+    <script src="student.js"></script>
+</body>
+</html>
